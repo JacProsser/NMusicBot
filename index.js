@@ -1,3 +1,4 @@
+require("dotenv").config()
 const { Client, Collection } = require("discord.js");
 const { readdirSync } = require("fs");
 const { Manager } = require("erela.js");
@@ -59,4 +60,4 @@ client.on("message", async message => {
   }
 });
 
-client.login("your bot token here");
+client.login(process.env.TOKEN)
