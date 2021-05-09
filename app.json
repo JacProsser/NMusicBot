@@ -1,0 +1,23 @@
+{
+  "name": "NMusicBot",
+  "description": "A Discord Bot Lavalink Music Bot!",
+  "repository": "https://github.com/Advanced-Bot-Discord-Bot/NMusicBot",
+  "env": {
+    "TOKEN": {
+            "description": "Your Discord Bot Token Here!.",
+            "required": true
+        },
+    "LAVA_HOST": {
+            "description": "Your Lavalink Host Here!.",
+            "required": true
+        },
+    "LAVA_PASS": {
+            "description": "Your Lavalink Password Here!.",
+            "required": true
+        },
+    "LAVA_PORT": {
+        "description": "Your Lavalink Port Here!",
+        "required": true
+        }
+    }
+}
