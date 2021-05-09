@@ -1,0 +1,25 @@
+{
+  "name": "NB",
+  "version": "1.0.0",
+  "description": "A Discord Lavalink Bot!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Advanced-Bot-Discord-Bot/NMusicBot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Advanced-Bot-Discord-Bot/NMusicBot/issues"
+  },
+  "homepage": "https://github.com/Advanced-Bot-Discord-Bot/NMusicBot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^9.0.1",
+    "erela.js": "^2.3.3"
+  }
+}
