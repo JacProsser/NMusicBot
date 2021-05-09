@@ -14,13 +14,12 @@ for (const file of files) {
   client.commands.set(command.name, command);
 }
 
-const nodes = [
-  {
+client.manager = new Manager({
+  nodes: [{
     host: process.env.LAVA_HOST,
     password: process.env.LAVA_PASS,
     port: process.env.LAVA_PORT,
-  }
-];
+  }],
   autoPlay: true,
   send: (id, payload) => {
     const guild = client.guilds.cache.get(id);
